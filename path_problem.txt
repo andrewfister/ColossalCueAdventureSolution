@@ -1,0 +1,26 @@
+The screen changes and now reads:
+
+8 8 4 4 ^
+4 9 6 4 8
+8 6 4 1 2
+4 8 2 6 3
+* 6 8 8 4
+
+* you are here
+
+> talk to rabbit
+
+"That's what I was looking for!  It's a map of the cartoon we're standing in
+now.  We're at the position marked *.  At every other position there is a
+troll that takes chips from you, just for entering the area.  Each troll takes
+the number of chips shown on the map.  We can go north, go east, go s, or
+even just w etc. from each position, assuming the new position is on the map!"
+
+"I won 35 chips playing roulette earlier, and I need to figure out how to get
+to the northeast corner.  I'm dying for that ^"
+
+"Oh, the ^ itself costs 5 chips.  Exactly 5.  If we have any more or any
+less than 5 chips when we get there, we'll have to start over."
+
+"If you want to start over at any time, just type reset, and type map at
+any time to see where you are."

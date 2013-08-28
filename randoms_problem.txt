@@ -1,0 +1,36 @@
+You flip the switch to on.
+
+The room is briefly illuminated, just long enough for you to make out writing
+on a strange board that reads 6.  The light shorts out, and it is dark again.
+
+> use switch
+
+You flip the switch to off, nothing happens, so you flip it back to on.
+
+The room is briefly illuminated, just long enough for you to make out writing
+on a strange board that reads 19.  The light shorts out, and it is dark again.
+
+> use switch
+
+You flip the switch to off, nothing happens, so you flip it back to on.
+
+The room is briefly illuminated, just long enough for you to make out writing
+on a strange board that reads 16.  The light shorts out, and it is dark again.
+
+> use switch
+
+The room is briefly illuminated. The briefness is less brief than previous
+illuminations. Eventually you are forced to conclude that the room is
+illuminated.
+
+> look table
+
+There is a roulette table in the center of the room.  The text VAX's
+MTH$RANDOM % 36 is painted on the table.  A man and a gnu are standing next to
+the table.
+
+> talk to man
+
+"Place your bets, place your bets" says the man, handing you 1 chip.  "If you
+can turn that chip in to 1,225 chips in 2 bets, I'll give you a key to the
+door."
