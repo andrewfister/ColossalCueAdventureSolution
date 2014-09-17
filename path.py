@@ -7,13 +7,13 @@ end_index = (0,4)
 end_row, end_col = end_index
 sub_paths = defaultdict(lambda: defaultdict(list))
 
-#I use the strategy to find the most direct route to the goal that meets the cost requirement. When the cost requirement along the most direct route available is exceeded, the algorithm will back up one step and try a different direction, continuing in the most direct alternate route possible.
+"""I use the strategy to find the most direct route to the goal that meets the cost requirement. When the cost requirement along the most direct route available is exceeded, the algorithm will back up one step and try a different direction, continuing in the most direct alternate route possible.
 
-#But it turns out that the solution will require doubling back, which will not work with the direct route approach. I must add support for moving away from the goal as a last resort before resuming a direct route strategy.
+But it turns out that the solution will require doubling back, which will not work with the direct route approach. I must add support for moving away from the goal as a last resort before resuming a direct route strategy.
 
-#There is a bit of optimization you can do with a (sort of) dynamic programming strategy in this problem. About the best I can think of doing is to keep track of every path that reaches the end state but fails to have the correct score. Then, store every sub-path of that path and their scores. Then if you traverse via another route to a space that is in the set of sub-paths, you can check if you get to the end with the right score with those paths before continuing on with the naive algorithm.
+There is a bit of optimization you can do with a (sort of) dynamic programming strategy in this problem. About the best I can think of doing is to keep track of every path that reaches the end state but fails to have the correct score. Then, store every sub-path of that path and their scores. Then if you traverse via another route to a space that is in the set of sub-paths, you can check if you get to the end with the right score with those paths before continuing on with the naive algorithm.
 
-#It turns out using this strategy *does* help in finding the path with fewer naive steps.
+It turns out using this strategy *does* help in finding the path with fewer naive steps."""
 
 def take_step(curr_index, score, path, path_scores):
     #First check for a shortcut sub-path from this index
